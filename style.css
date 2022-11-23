@@ -1,0 +1,127 @@
+/* GLOBAL */
+section {
+  padding: 75px 0;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+}
+
+.flex-grow-3 {
+  flex-grow: 3;
+}
+
+.btn-custom {
+  background-color: #ffd372;
+}
+
+.btn-custom:hover {
+  background-color: #ffd372;
+}
+
+.pop-it {
+  margin-top: -60px;
+  padding-top: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -50px;
+  background-image: url('images/background.png');
+  height: 900px;
+}
+
+.pop-it-title {
+  font-size: 160px;
+  font-weight: 900;
+}
+
+.pop-it a {
+  margin-top: 60px;
+}
+
+.pop-it-menu {
+  background-color: #b9e0ff;
+}
+
+.pop-it-menu .item {
+  height: 150px;
+}
+
+#benefit {
+  background-image: url('images/bg-grid.png');
+  background-position: center;
+  background-size: contain;
+  background-position: 70px 40px;
+  background-repeat: no-repeat;
+}
+
+.benefit-content {
+  padding-top: 75px;
+  padding-right: 90px;
+}
+
+#benefit img {
+  height: 300px;
+}
+
+/* ANDROID-TABLET */
+@media (max-width: 992px) {
+  .pop-it {
+    margin-top: -180px;
+  }
+
+  .pop-it {
+    padding-top: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('images/background.png');
+    background-position: -300px 0px;
+    height: 800px;
+  }
+
+  .pop-it-title {
+    font-size: 70px;
+  }
+
+  .pop-it .fs-4 {
+    font-size: 18px;
+  }
+
+  #benefit img {
+    margin-top: 110px;
+    height: 190px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pop-it {
+    background-image: url('images/background.png');
+    background-position: -380px 0px;
+  }
+
+  .pop-it-menu .item {
+    height: 250px;
+  }
+
+  #benefit {
+    background-position: center 250px;
+  }
+
+  .benefit-content {
+    padding-right: 0;
+    text-align: justify;
+  }
+
+  #benefit img {
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+  }
+
+  footer .content {
+    text-align: center;
+  }
+}
